@@ -9,7 +9,7 @@
   <body>
 
     // Learning Blade Templates for admin templates
-    
+    //AdminCAST – Free Bootstrap 4 admin dashboard template
     <div class="container py-5">
         <h2>Category Page shows</h2>
     </div>
