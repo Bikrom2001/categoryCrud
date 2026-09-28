@@ -9,7 +9,7 @@
   <body>
     
     <div class="container py-5">
-        <h2>Category Page</h2>
+        <h2>Category Page shows</h2>
     </div>
 
 

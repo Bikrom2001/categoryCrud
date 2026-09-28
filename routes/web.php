@@ -7,6 +7,8 @@ Route::get('/', function () {
 });
 
 
+//category Page 
 Route::get('/category', function () {
     return view('admin.category.index');
 });
+
