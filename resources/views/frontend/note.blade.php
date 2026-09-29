@@ -5,3 +5,7 @@
 // 01 step => "php artisan make:model Category" model banano command
 
 // 02 step => "php artisan make:model Category -m" command dile model and migrations file aksathe create korbe.
+
+
+// Running Migrations and Ceate_category_table 
+// 1st amader create korte hoybe "Schema" for database theke code and then "Running Migrations" korte hoybe jate database apply hoy "php artisan migrate"
