@@ -14,3 +14,6 @@
 // Writing Seeders
 
 // Category fack data crate jonno amra akta "Seeders" file create korchi . command "php artisan make:seeder CategorySeeder"
+
+
+// category seeder file ready and database data add  command "php artisan db:seed"
