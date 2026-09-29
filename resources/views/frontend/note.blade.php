@@ -9,3 +9,8 @@
 
 // Running Migrations and Ceate_category_table 
 // 1st amader create korte hoybe "Schema" for database theke code and then "Running Migrations" korte hoybe jate database apply hoy "php artisan migrate"
+
+
+// Writing Seeders
+
+// Category fack data crate jonno amra akta "Seeders" file create korchi . command "php artisan make:seeder CategorySeeder"
