@@ -17,3 +17,7 @@
 
 
 // category seeder file ready and database data add  command "php artisan db:seed"
+
+
+// Eloquent: Factories learing 
+// createing a categoryFactories "php artisan make:factory PostFactory"
