@@ -1,5 +1,6 @@
 <?php
 
+use App\Models\Category;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -9,6 +10,7 @@ Route::get('/', function () {
 
 //category Page 
 Route::get('/category', function () {
-    return view('admin.category.index');
+    return $categories = Category::get();
+    return view('backend.category.index');
 });
 
