@@ -10,7 +10,7 @@ Route::get('/', function () {
 
 //category Page 
 Route::get('/category', function () {
-    $data['$categories'] = Category::get();
-    return view('backend.category.index', $data);
+     $categories = Category::get();
+    return view('backend.category.index', compact("categories"));
 });
 
