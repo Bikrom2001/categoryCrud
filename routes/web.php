@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Backend\CategoryController;
 use App\Models\Category;
 use Illuminate\Support\Facades\Route;
 
@@ -9,8 +10,5 @@ Route::get('/', function () {
 
 
 //category Page 
-Route::get('/category', function () {
-     $categories = Category::get();
-    return view('backend.category.index', compact("categories"));
-});
+Route::get('/category', [CategoryController::class, 'index']);
 
