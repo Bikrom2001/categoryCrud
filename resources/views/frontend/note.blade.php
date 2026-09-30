@@ -24,3 +24,6 @@
 
 
 // Factories maddome data send for database fake data and command "php artisan migrate:fresh --seed";
+
+
+// new controller file crate for category section jonno and command "php artisan make:controller Backend/CategoryController"
