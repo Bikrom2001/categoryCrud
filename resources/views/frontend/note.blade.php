@@ -21,3 +21,6 @@
 
 // Eloquent: Factories learing 
 // createing a categoryFactories "php artisan make:factory PostFactory"
+
+
+// Factories maddome data send for database fake data and command "php artisan migrate:fresh --seed";
