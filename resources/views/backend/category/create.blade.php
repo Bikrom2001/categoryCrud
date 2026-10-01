@@ -13,11 +13,18 @@
 
     <div class="container py-5">
         <h2>Category Create</h2>
-       
+        <form action='{{ route('category.store') }}' method='POST'>
+            <div class="mb-3">
+                <label for="category" class="form-label">Category Name</label>
+                <input type="text" name='category' class="form-control" id="category">
+            </div>
+            
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
     </div>
 
 
-    
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
