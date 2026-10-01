@@ -10,7 +10,7 @@ class CategoryController extends Controller
 {
     public function index()
     {
-        $categories = Category::take(10)->get();
+        $categories = Category::paginate(10);
         return view('backend.category.index', compact("categories"));
     }
 }
