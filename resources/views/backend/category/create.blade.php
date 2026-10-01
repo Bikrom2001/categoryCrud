@@ -14,6 +14,7 @@
     <div class="container py-5">
         <h2>Category Create</h2>
         <form action='{{ route('category.store') }}' method='POST'>
+            @csrf
             <div class="mb-3">
                 <label for="category" class="form-label">Category Name</label>
                 <input type="text" name='category' class="form-control" id="category">
