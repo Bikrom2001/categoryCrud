@@ -13,6 +13,7 @@
 
     <div class="container py-5">
         <h2>Category Create</h2>
+        {{ $errors }}
         <form action='{{ route('category.store') }}' method='POST'>
             @csrf
             <div class="mb-3">
