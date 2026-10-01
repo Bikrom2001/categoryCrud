@@ -13,14 +13,17 @@
 
     <div class="container py-5">
         <h2>Category Create</h2>
-        {{ $errors }}
+
         <form action='{{ route('category.store') }}' method='POST'>
             @csrf
             <div class="mb-3">
                 <label for="category" class="form-label">Category Name</label>
                 <input type="text" name='category' class="form-control" id="category">
             </div>
-            
+            @error('category')
+                <div class="alert alert-danger">{{ $message }}</div>
+            @enderror
+
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>
     </div>
