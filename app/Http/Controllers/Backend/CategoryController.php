@@ -10,7 +10,7 @@ class CategoryController extends Controller
 {
     public function index()
     {
-        $categories = Category::get();
+        $categories = Category::take(10)->get();
         return view('backend.category.index', compact("categories"));
     }
 }
