@@ -16,7 +16,8 @@
     <div class="container py-5">
         <h2>Category Page shows</h2>
         <div class="py-2 text-end">
-            <a href="{{ url('category/create') }}" class='btn btn-primary'>Add Category</a>
+            {{-- <a href="{{ url('category/create') }}" class='btn btn-primary'>Add Category</a> --}}
+            <a href="{{ route('category.create') }}" class='btn btn-primary'>Add Category</a>
         </div>
         <table class="table table-bordered border-primary">
             <thead>

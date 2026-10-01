@@ -11,5 +11,5 @@ Route::get('/', function () {
 
 //category Page 
 Route::get('/category', [CategoryController::class, 'index']);
-Route::get('/category/create', [CategoryController::class, 'create']);
+Route::get('/category/create', [CategoryController::class, 'create']) -> name('category.create');
 
